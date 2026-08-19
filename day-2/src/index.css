@@ -47,10 +47,24 @@ html, body {
 }
 
 .section-2{
-  height: 100vh;
+  height: 120vh;
   padding: 20px;
   background-color: #FFFFFF;
 
+}
+
+.section-2 .four{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.section-2 .three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .section-2 .one{
@@ -167,15 +181,38 @@ html, body {
   scale: 0.95;
 }
 
-.footer{
+.bottom-section-1{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 
-.footer .bottom-right{
+.bottom-section-1 .bottom-right{
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.footer{
+  height: 40vh;
+  background-color: white;
+    padding: 20px;
+    background-color: red;
+
+}
+
+.footer .footer-left-div{
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.footer .footer-left-div  button{
+  padding: 7px 14px;
+  background-color: black;
+  color: white;
+  max-width: 120px;
+  border: none;
+  border-radius: 50px;
 }

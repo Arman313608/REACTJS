@@ -8,7 +8,7 @@ const Section = () => {
        
         <Center/>
         
-        <div className="footer">
+        <div className="bottom-section-1">
             <p>Train with real professionals. <br />
             Get the real results.
         </p>

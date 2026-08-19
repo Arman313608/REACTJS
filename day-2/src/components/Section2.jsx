@@ -3,6 +3,7 @@ import React from 'react'
 const Section2 = () => {
   return (
     <div className="section-2">
+
         <div className="one">
             <p>About Horizon</p>
         <h2>At Horizon, We don't just play tennis - We live it. Since 2021, <br />
@@ -30,9 +31,32 @@ const Section2 = () => {
                 </div>
             </div>
 
-            
+           
 
 
+        </div>
+
+        <div className="three">
+            <h4>A few more facts about us in numbers.</h4>
+        </div>
+
+        <div className="four">
+            <div>
+                <h1>12000+</h1>
+                <p>Hours of play annually</p>
+            </div>
+            <div>
+                <h1>89%</h1>
+                <p>Player Retention Rate</p>
+            </div>
+            <div>
+                <h1>1,200+</h1>
+                <p>Active Members</p>
+            </div>
+            <div>
+                <h1>125+</h1>
+                <p>Annual Tournaments</p>
+            </div>
         </div>
     </div>
   )
